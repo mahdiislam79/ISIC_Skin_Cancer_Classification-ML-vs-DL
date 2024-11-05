@@ -1,6 +1,99 @@
-# Skin_Cancer_Classification-Comparison_between_ML_and_DL_techniques
+# Skin Cancer Classification using Machine Learning
 
-### Skin Cancer is one of the most common types of cancer and it's prevalance is on the rise each year. Luckily, early detection of this cancer can be crucial for proper treatment. 
+## Project Overview
 
-The aim of this project is to create two separate CAD systems for classifying benign vs malignant lesions from images of skin lesions. It is a binary classification problem. 
+Skin cancer is one of the most prevalent cancers worldwide, and early detection is crucial for effective treatment. This project aims to develop a Computer-Aided Diagnostic (CAD) system for the binary classification of skin lesions, distinguishing between benign and malignant cases.
 
+This project is part of a larger comparative study of Machine Learning (ML) and Deep Learning (DL) approaches for skin cancer classification. This repository focuses on the ML-based approach.
+
+## Dataset
+
+We utilized a skin lesion dataset with two main categories for binary classification:
+- **Nevus (Benign)**
+- **Other Lesions (Malignant)**
+
+The dataset was divided into training and validation sets to ensure robust evaluation.
+
+### Dataset Details
+| Class   | Train Samples | Validation Samples |
+|---------|---------------|--------------------|
+| Nevus   | 7,725         | 1,931             |
+| Others  | 7,470         | 1,865             |
+
+---
+
+## Preprocessing
+
+To ensure consistency and improve model performance, we applied the following preprocessing steps:
+
+1. **Hair Removal**: Used a blackhat filter with multiple oriented structural elements and thresholding.
+2. **Color Normalization**: Adjusted color balance across images to minimize lighting and color variations.
+3. **Region of Interest (ROI) Extraction**: Isolated regions of interest by identifying high-contrast areas within the lesion images.
+
+---
+
+## Feature Extraction
+
+Features were extracted from the images to capture essential characteristics. We categorized them into color, texture, and gradient features.
+
+1. **Color Features**: Including color statistics, color moments, and histograms across RGB, HSV, and LAB color spaces.
+2. **Texture Features**: LBP (Local Binary Pattern), GLCM (Gray Level Co-occurrence Matrix), and Haralick features.
+3. **Gradient Features**: Extracted Histogram of Oriented Gradients (HOG) and wavelet features, followed by dimensionality reduction using PCA.
+
+**Total Features**: 842
+
+---
+
+## Classifier Models
+
+Several Machine Learning models were implemented for the classification task:
+
+1. **Single Models**:
+   - Random Forest
+   - LightGBM
+   - XGBoost
+   - Support Vector Machine (SVM)
+
+2. **Ensemble Models**:
+   - Stacking
+   - Majority Voting
+
+---
+
+## Evaluation Metrics
+
+### Binary Classification Metrics
+- **Accuracy**
+- **F1 Score**
+
+### Multi-Class Classification Metrics (For Extended Analysis)
+- **Kappa Score**
+- **Balanced Accuracy**
+
+---
+
+## Key Findings
+
+- **Color and texture features** proved essential for this project.
+- Despite implementing resampling techniques like SMOTE, the imbalance issue persisted due to overlapping labels (scc and bcc).
+- **Feature selection** did not impact performance, suggesting the robustness of our feature extraction approach.
+
+---
+
+## Future Work
+
+To further improve the CAD system:
+- Implement a multi-resolution framework.
+- Explore deep learning methods for lesion segmentation and feature extraction.
+
+---
+
+## References
+
+For more insights on sampling techniques and skin cancer classification research, see:
+- [A Comprehensive Evaluation of Sampling Techniques](https://github.com/newaz-aa/Sampling-algorithms-experimental-analysis)
+- [Skin Cancer Classification Using Image Processing and Machine Learning](https://ieeexplore.ieee.org/document/9393198)
+
+---
+
+Thank you for checking out this project! Contributions and feedback are welcome.
