@@ -30,7 +30,7 @@ To ensure consistency and improve model performance, we applied the following pr
 2. **Color Normalization**: Adjusted color balance across images to minimize lighting and color variations.
 3. **Region of Interest (ROI) Extraction**: Isolated regions of interest by identifying high-contrast areas within the lesion images.
 
-![Preprocessing Steps](https://github.com/mahdiislam79/ISIC_Skin_Cancer_Classification-ML/tree/main/ML/Binary%20Classification%20Challenge/Images/Preprocessing.PNG)
+![Preprocessing Steps](https://raw.githubusercontent.com/mahdiislam79/ISIC_Skin_Cancer_Classification-ML/main/ML/Binary%20Classification%20Challenge/Images/Preprocessing.PNG)
 
 The above image shows the preprocessing pipeline, including hair removal, color normalization, and ROI extraction.
 
