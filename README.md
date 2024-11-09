@@ -8,18 +8,30 @@ This project is part of a larger comparative study of Machine Learning (ML) and 
 
 ## Dataset
 
-We utilized a skin lesion dataset with two main categories for binary classification:
+We utilized two skin lesion datasets. With two main categories for binary classification:
 - **Nevus (Benign)**
 - **Other Lesions (Malignant)**
 
+And three categories for multiclass classification:
+
+- **bcc (Basal cell carcinoma)**
+- **mel (Melanoma)**
+- **scc (Squamous cell carcinoma)**
+
 The dataset was divided into training and validation sets to ensure robust evaluation.
 
-### Dataset Details
+### Binary Dataset Details
 | Class   | Train Samples | Validation Samples |
 |---------|---------------|--------------------|
 | Nevus   | 7,725         | 1,931             |
 | Others  | 7,470         | 1,865             |
 
+### Multiclass Dataset Details
+| Class   | Train Samples | Validation Samples |
+|---------|---------------|--------------------|
+| BCC     | 1,993         | 498               |
+| Mel     | 2,713         | 678               |
+| SCC     | 376           | 94                |
 ---
 
 ## Preprocessing
