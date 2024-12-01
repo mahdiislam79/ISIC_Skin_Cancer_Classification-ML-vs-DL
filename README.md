@@ -1,4 +1,4 @@
-# Skin Cancer Classification using Machine Learning
+# Skin Cancer Classification: Machine Learning vs Deep learning Techniques
 
 ## Project Overview
 
