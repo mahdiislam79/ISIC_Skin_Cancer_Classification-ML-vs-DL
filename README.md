@@ -4,7 +4,7 @@
 
 Skin cancer is one of the most prevalent cancers worldwide, and early detection is crucial for effective treatment. This project aims to develop a Computer-Aided Diagnostic (CAD) system for the binary classification of skin lesions, distinguishing between benign and malignant cases.
 
-This project is part of a larger comparative study of Machine Learning (ML) and Deep Learning (DL) approaches for skin cancer classification. This repository focuses on the ML-based approach.
+This project is part of a larger comparative study of Machine Learning (ML) and Deep Learning (DL) approaches for skin cancer classification. This repository is currently contains the ML-based approach. DL techniques and their comparison will be added later.
 
 ## Dataset
 
