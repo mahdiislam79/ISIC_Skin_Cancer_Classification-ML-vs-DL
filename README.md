@@ -98,51 +98,17 @@ Several Machine Learning models were implemented for the classification task:
 
 ## Results
 
-<table>
-  <thead>
-    <tr>
-      <th rowspan="2">Binary Class (Accuracy)</th>
-      <th colspan="2">Multi-Class (Kappa)</th>
-    </tr>
-    <tr>
-      <th>ML</th>
-      <th>DL</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>0.8184</td>
-      <td>0.8777</td>
-      <td>0.6598</td>
-      <td>0.8191</td>
-    </tr>
-    <tr>
-      <td>0.8263</td>
-      <td>0.9092</td>
-      <td>0.707</td>
-      <td>0.858</td>
-    </tr>
-    <tr>
-      <td>0.8244</td>
-      <td>0.9120</td>
-      <td>0.7079</td>
-      <td>0.865</td>
-    </tr>
-    <tr>
-      <td>0.8276</td>
-      <td>0.903</td>
-      <td>0.6873</td>
-      <td>0.870</td>
-    </tr>
-    <tr>
-      <td><b>0.8363</b></td>
-      <td><b>0.9130</b></td>
-      <td><b>0.7128</b></td>
-      <td><b>0.872</b></td>
-    </tr>
-  </tbody>
-</table>
+## Results
 
+| Binary Class (Accuracy) | Multi-Class (Kappa) |                 |                 |
+|--------------------------|---------------------|-----------------|-----------------|
+|                          | **ML**             | **DL**          | **ML**          | **DL**          |
+|--------------------------|---------------------|-----------------|-----------------|-----------------|
+| 0.8184                  | 0.8777             | 0.6598          | 0.8191          |
+| 0.8263                  | 0.9092             | 0.707           | 0.858           |
+| 0.8244                  | 0.9120             | 0.7079          | 0.865           |
+| 0.8276                  | 0.903              | 0.6873          | 0.870           |
+| **0.8363**              | **0.9130**         | **0.7128**      | **0.872**       |
 
 
 
