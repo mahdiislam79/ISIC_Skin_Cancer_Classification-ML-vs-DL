@@ -98,10 +98,15 @@ Several Machine Learning models were implemented for the classification task:
 
 ## Results
 
-| Binary Class (Accuracy) |           Multi-Class (Kappa)           |
-|    ML   |       DL      |          ML        |          DL        |
-|---------|---------------|--------------------|--------------------
-| 0.8363  | 0.9130        | 0.7128             | 0.872              |
+| Binary Class (Accuracy) | Multi-Class (Kappa) |
+|--------------------------|---------------------|
+| **ML** | **DL** | **ML** | **DL** |
+| 0.8184 | 0.8777 | 0.6598 | 0.8191 |
+| 0.8263 | 0.9092 | 0.707  | 0.858  |
+| 0.8244 | 0.9120 | 0.7079 | 0.865  |
+| 0.8276 | 0.903  | 0.6873 | 0.870  |
+| **0.8363** | **0.9130** | **0.7128** | **0.872** |
+
 
 ## Key Findings
 
