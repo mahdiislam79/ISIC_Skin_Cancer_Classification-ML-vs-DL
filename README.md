@@ -76,6 +76,14 @@ Several Machine Learning models were implemented for the classification task:
 
 ---
 
+## Deep Learning Models
+
+- EfficientNetB0
+- EfficientNetB4
+- Swin Transformer 
+
+---
+
 ## Evaluation Metrics
 
 ### Binary Classification Metrics
