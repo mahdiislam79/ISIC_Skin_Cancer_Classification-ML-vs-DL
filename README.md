@@ -107,7 +107,7 @@ Several Machine Learning models were implemented for the classification task:
 | ML     | **0.8363** |
 | DL     | **0.9130** |
 
-## Multi-Class (Kappa)
+### Multi-Class (Kappa)
 
 | Method | Kappa  |
 |--------|--------|
