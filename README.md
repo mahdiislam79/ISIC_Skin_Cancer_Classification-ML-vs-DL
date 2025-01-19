@@ -98,8 +98,6 @@ Several Machine Learning models were implemented for the classification task:
 
 ## Results
 
-## Results
-
 ### Binary Class (Accuracy)
 
 | Method | Accuracy |
@@ -114,13 +112,17 @@ Several Machine Learning models were implemented for the classification task:
 | ML     | **0.7128** |
 | DL     | **0.872** |
 
-
+---
 
 ## Key Findings
 
 - **Color and texture features** proved essential for this project.
 - Despite implementing resampling techniques like SMOTE, the imbalance issue persisted due to overlapping labels (scc and bcc).
 - **Feature selection** did not impact performance, suggesting the robustness of our feature extraction approach.
+- Dynamic control learning rate helps navigating to global minima.
+- Performance stagnated after reaching .9 accuracy for binary classification.
+- Deep learning model adapts significantly better to class imbalance than traditional. approaches.
+
 
 ---
 
