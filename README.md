@@ -96,6 +96,13 @@ Several Machine Learning models were implemented for the classification task:
 
 ---
 
+## Results
+
+| Binary Class (Accuracy) |           Multi-Class (Kappa)           |
+|    ML   |       DL      |          ML        |          DL        |
+|---------|---------------|--------------------|--------------------
+| 0.8363  | 0.9130        | 0.7128             | 0.872              |
+
 ## Key Findings
 
 - **Color and texture features** proved essential for this project.
